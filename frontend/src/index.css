@@ -1,0 +1,7 @@
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a1628; }
+select option { background: #1a2744; color: #e8f0fe; }
+input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(0.6); }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0d1f3c; }
+::-webkit-scrollbar-thumb { background: #2a3f6f; border-radius: 3px; }
